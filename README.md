@@ -9,7 +9,10 @@ Para su desarrollo se han adaptado algunos componentes comúnes ya existentes (f
 De igual manera, se ha hecho uso del anidamiento entre componentes, enrutamiento (donde se administra la carga de componentes dependiendo de su uso gracias al empleo del lazy-loading), navegación y servicios (auth, player-adder, player-modifier, player-obtainer y player-transporter).
 
 Los datos de acceso para la administración de la aplicación son los siguientes:
+
 -Usuario: florentinoperrod@gmail.com
+
+
 -Contraseña: tranquilo
 
 Enlace a la aplicación desplegada: https://juanjobs00.github.io/rma-handler/login
