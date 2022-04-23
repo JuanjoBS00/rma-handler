@@ -1,27 +1,17 @@
 # RmaHandler
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.3.
+Este proyecto tiene la principal finalidad de crear una aplicación mediante el uso del framework Angular, la cual gestiona la plantilla de jugadores de un equipo deportivo, en este caso el Real Madrid CF.
 
-## Development server
+Esta aplicación ha sido desarrollada a partir de un código base dotado por el profesorado de la asignatura DAW2, al cual se le ha sometido a un proceso de Ingeniería Inversa. La documentación relacionada con dicho proceso se encuentra en el directorio /doc de este proyecto.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Para su desarrollo se han adaptado algunos componentes comúnes ya existentes (forgot-password, login y not-found). Asimismo, se han modificado componentes existentes pertenecientes al administrador (about, footer, header y home) y se han creado otros para el mismo (players, create-player, modify-player, player-detail). 
 
-## Code scaffolding
+De igual manera, se ha hecho uso del anidamiento entre componentes, enrutamiento (donde se administra la carga de componentes dependiendo de su uso gracias al empleo del lazy-loading), navegación y servicios (auth, player-adder, player-modifier, player-obtainer y player-transporter).
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Los datos de acceso para la administración de la aplicación son los siguientes:
+-Usuario: florentinoperrod@gmail.com
+-Contraseña: tranquilo
 
-## Build
+Enlace a la aplicación desplegada: https://juanjobs00.github.io/rma-handler/login
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+¡Espero que te guste!
